@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+
+    android:orientation="vertical">
+
+    <TextClock
+        android:id="@+id/clock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:format24Hour="HH:mm"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/socialNr_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:hint="yymmdd-xxxx"
+        android:maxLength="10"
+        android:textColor="@color/colorPrimaryVeryDark"
+        android:textSize="60sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:text="@string/dialer_1"
+            android:textColor="@color/colorPrimaryVeryDark"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/btn2"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:text="@string/dialer_2"
+            android:textColor="@color/colorPrimaryVeryDark"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/btn3"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+
+            android:text="@string/dialer_3"
+            android:textColor="@color/colorPrimaryVeryDark"
+            android:textSize="32sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn4"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+
+            android:text="@string/dialer_4"
+            android:textColor="@color/colorPrimaryVeryDark"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/btn5"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+
+            android:text="@string/dialer_5"
+            android:textColor="@color/colorPrimaryVeryDark"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/btn6"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+
+            android:text="@string/dialer_6"
+            android:textColor="@color/colorPrimaryVeryDark"
+            android:textSize="32sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn7"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+
+            android:text="@string/dialer_7"
+            android:textColor="@color/colorPrimaryVeryDark"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/btn8"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+
+            android:text="@string/dialer_8"
+            android:textColor="@color/colorPrimaryVeryDark"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/btn9"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+
+            android:text="@string/dialer_9"
+            android:textColor="@color/colorPrimaryVeryDark"
+            android:textSize="32sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnRemove"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:text="@string/dialer_remove"
+            android:textColor="@color/colorPrimaryVeryDark"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/btn0"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+
+            android:text="@string/dialer_0"
+            android:textColor="@color/colorPrimaryVeryDark"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/btnEnter"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:text="@string/dialer_enter"
+            android:textColor="@color/colorPrimaryVeryDark"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
